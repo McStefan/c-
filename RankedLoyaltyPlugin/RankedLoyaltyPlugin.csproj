@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <OutputType>Library</OutputType>
+    <AssemblyName>RankedLoyaltyPlugin</AssemblyName>
+    <RootNamespace>RankedLoyaltyPlugin</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Resto.Front.Api" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="public.pem" />
+  </ItemGroup>
+</Project>
